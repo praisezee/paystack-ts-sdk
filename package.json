@@ -1,16 +1,20 @@
 {
-  "name": "paystack-ts-sdk",
+  "name": "@dev_apus/paystack-ts",
   "version": "1.0.0",
   "description": "A lightweight and strongly-typed TypeScript SDK for integrating Paystack’s payment APIs on the server. This package provides simple, type-safe methods to handle transactions, customers, refunds, transfers, and webhooks  making it faster and easier to build payment flows with Paystack in Node.js.",
-  "main": "index.js",
   "repository": "https://github.com/praisezee/paystack-ts-sdk.git",
   "author": "dev_apus",
   "license": "MIT",
-  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "lint": "eslint 'src/**/*.{ts,js}'",
-    "lint:fix": "eslint 'src/**/*.{ts,js}' --fix",
-    "format": "prettier --write 'src/**/*.{ts,js,json,md}'"
+    "build": "tsc",
+    "lint": "eslint \"src/**/*.{ts,js}\" --ext .ts,.js",
+    "lint:fix": "eslint \"src/**/*.{ts,js}\" --ext .ts,.js --fix",
+    "format": "prettier --write \"src/**/*.{ts,js,json,md}\""
   },
   "dependencies": {
     "axios": "^1.12.2"
