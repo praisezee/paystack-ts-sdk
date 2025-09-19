@@ -17,7 +17,6 @@
     "format": "prettier --write \"src/**/*.{ts,js,json,md}\""
   },
   "dependencies": {
-    "@dev_apus/paystack-ts": "^1.0.0",
     "axios": "^1.12.2"
   },
   "devDependencies": {
