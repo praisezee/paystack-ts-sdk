@@ -1,6 +1,6 @@
 {
   "name": "@dev_apus/paystack-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight and strongly-typed TypeScript SDK for integrating Paystack’s payment APIs on the server. This package provides simple, type-safe methods to handle transactions, customers, refunds, transfers, and webhooks  making it faster and easier to build payment flows with Paystack in Node.js.",
   "repository": "https://github.com/praisezee/paystack-ts-sdk.git",
   "author": "dev_apus",
